@@ -1,0 +1,29 @@
+{
+  "name": "botname",
+  "version": "1.0.0",
+  "description": "botname Discord Server Bot",
+  "main": "index.js",
+  "start": "node .",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Skemicle",
+  "license": "ISC",
+  "dependencies": {
+    "better-sqlite3": "^5.4.1",
+    "cheerio": "^1.0.0-rc.3",
+    "discord.js": "^11.5.1",
+    "enmap": "^5.2.4",
+    "js-sha256": "^0.9.0",
+    "js-sha512": "^0.8.0",
+    "jssha": "^3.0.0",
+    "provably-fair": "^1.0.3",
+    "puppeteer": "^2.1.1",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.5"
+  },
+  "engines": {
+    "node": "12.14.1",
+    "npm": "6.13.4"
+  }
+}
